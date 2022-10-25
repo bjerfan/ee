@@ -1,10 +1,10 @@
 FROM alpine:3.13
 
 ENV OCSERV_VERSION 1.1.2
-ENV CA_CN 92.246.91.150
-ENV CA_ORG Kir to mamad
-ENV SRV_CN 92.246.91.150
-ENV SRV_ORG Kir to mamad
+ENV CA_CN "92.246.91.150"
+ENV CA_ORG "Kir to mamad"
+ENV SRV_CN "92.246.91.150"
+ENV SRV_ORG "Kir to mamad"
 RUN set -ex \
     && apk add --no-cache --virtual .build-dependencies \
     readline-dev \
